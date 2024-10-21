@@ -27,6 +27,12 @@ public class UserController {
         UserDtls user = userService.getUserByEmail(email);
         return user;
     }
+    
+    @GetMapping("/{id}")
+    UserDtls getUserById(@PathVariable("id") Integer id) {
+    	UserDtls user = userService.getUserById(id);
+		return user;
+    };
 
     @GetMapping("/role/{role}")
     public List<UserDtls> getUsersByRole(@PathVariable String role) {

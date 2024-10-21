@@ -178,4 +178,9 @@ public class UserServiceImpl implements UserService {
 		return userRepository.existsByEmail(email);
 	}
 
+	@Override
+	public UserDtls getUserById(Integer id) {
+		return userRepository.findById(id).get();
+	}
+
 }
