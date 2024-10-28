@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.synergisticit</groupId>
-	<artifactId>ShoppingMicroservice</artifactId>
+	<artifactId>ShoppingMicroservice1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Shopping-Microservice</name>
+	<name>Shopping-Microservice1</name>
 	<description>shopping authentication microservice</description>
 	<url/>
 	<licenses>

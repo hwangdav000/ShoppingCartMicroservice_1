@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ShoppingMicroserviceApplication {
+public class ShoppingMicroserviceApplication1 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ShoppingMicroserviceApplication.class, args);
+		SpringApplication.run(ShoppingMicroserviceApplication1.class, args);
 	}
 
 }
